@@ -1,0 +1,7 @@
+---
+const { prodName, InStock } = Astro.props;
+---
+
+<p>
+  {prodName} is{!InStock && <strong> not</strong>} in stock;
+</p>
